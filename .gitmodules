@@ -1,0 +1,6 @@
+[submodule "lib/FlexCAN_Library"]
+	path = lib/FlexCAN_Library
+	url = https://github.com/pawelsky/FlexCAN_Library.git
+[submodule "lib/SD"]
+	path = lib/SD
+	url = https://github.com/PaulStoffregen/SD.git
