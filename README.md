@@ -1,4 +1,4 @@
-# can-dumper-teensy
+# vag-logger-teensy
 
 This project is intended to dump selected CAN bus messages to SD card using Teensy 3.6 board.
 
