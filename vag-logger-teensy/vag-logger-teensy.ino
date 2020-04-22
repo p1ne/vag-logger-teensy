@@ -132,7 +132,7 @@ void loop()
       else if ((msg.id == 0x7E8) && (msg.buf[0] == 0x05) && (msg.buf[1] == 0x62) && (msg.buf[2] == 0x20) && (msg.buf[3] >= 0x0A) && (msg.buf[3] <= 0x0D)) {
         int canValue = msg.buf[4]*256+msg.buf[5];
         if (canValue != 0) {
-          str = str + "ret \t" + String(msg.buf[3]-0x9) + "\t" + String((float)(signed int)(canValue) / 100.0);;
+          str = str + "ret \t" + String(msg.buf[3]-0x9) + "\t" + String((float)(unsigned int)(canValue) / 100.0);;
         }
       }
       
